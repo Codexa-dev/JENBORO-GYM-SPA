@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery | Jenboro Gym &amp; Spa</title>
+<meta name="description" content="Photos of Jenboro Gym &amp; Spa: the gym, spa, staircase and building in Bulbula, Addis Ababa.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gallery | Jenboro Gym &amp; Spa">
+<meta property="og:description" content="Fitness, strength and wellness at Jenboro Gym &amp; Spa in Bulbula, Addis Ababa.">
+<meta property="og:image" content="images/gym-floor.jpg">
+<link rel="icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Oswald:wght@500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hdr">
+ <div class="wrap bar">
+  <a href="index.html" class="brand"><img src="images/logo-nav.jpg" alt="Jenboro Gym &amp; Spa logo" width="140" height="52"></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav id="nav" aria-label="Main">
+   <a href="index.html">Home</a><a href="about.html">About Us</a><a href="gym.html">Gym &amp; Fitness</a><a href="spa.html">Spa &amp; Massage</a><a href="gallery.html" aria-current="page">Gallery</a><a href="contact.html">Contact</a>
+   <a href="contact.html" class="btn sm">JOIN NOW</a>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section class="pbn" style="background-image:linear-gradient(rgba(17,17,17,.78),rgba(17,17,17,.78)),url(images/stairs.jpg)"><div class="wrap"><h1>GALLERY</h1></div></section><section class="sec cream" id="gallery">
+ <div class="wrap">
+  <div class="head rv"><p class="lbl gold">INSIDE JENBORO</p><h2>TAKE A LOOK AROUND.</h2></div>
+  <div class="gal">
+   <button class="g big"><img src="images/training.jpg" alt="Members training on the gym floor" loading="lazy"></button>
+   <button class="g"><img src="images/massage.jpg" alt="Massage and spa towel" loading="lazy"></button>
+   <button class="g"><img src="images/stairs.jpg" alt="Staircase decorated with flowers leading to the spa" loading="lazy"></button>
+   <button class="g"><img src="images/gym-floor.jpg" alt="Gym floor with treadmills and a Never Stop pillar" loading="lazy"></button>
+   <button class="g"><img src="images/building.jpg" alt="Jenboro Gym &amp; Spa building and vertical sign" loading="lazy"></button>
+   <button class="g"><img src="images/treadmills.jpg" alt="Treadmills by the windows" loading="lazy"></button>
+   <button class="g"><img src="images/entrance.jpg" alt="Jenboro entrance and sign" loading="lazy"></button>
+   <button class="g logo"><img src="images/logo.jpg" alt="Jenboro Gym &amp; Spa logo" loading="lazy"></button>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="ft">
+ <div class="wrap fgrid">
+  <div><img src="images/logo-nav.jpg" alt="Jenboro Gym &amp; Spa" width="150" height="56"><p>Fitness, strength, and wellness at Jenboro Gym &amp; Spa in Bulbula, Addis Ababa.</p></div>
+  <div><h3>Explore</h3><a href="about.html">About Us</a><a href="gym.html">Gym &amp; Fitness</a><a href="spa.html">Spa &amp; Massage</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+  <div><h3>Contact</h3><a href="tel:+251947999933">+251 947 999 933</a><a href="tel:+251947999955">+251 947 999 955</a><a href="mailto:jenborogymandspa@gmail.com">jenborogymandspa@gmail.com</a><a target="_blank" rel="noopener" href="https://www.instagram.com/jenboro_gym_and_spa/reels/">Instagram</a><a target="_blank" rel="noopener" href="https://web.facebook.com/profile.php?id=61575104155504">Facebook</a></div>
+ </div>
+ <p class="copy">© <span id="yr"></span> Jenboro Gym &amp; Spa. All rights reserved.</p>
+</footer>
+
+<button id="top" aria-label="Back to top">↑</button>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+ <button class="lc" data-a="close" aria-label="Close">×</button>
+ <button class="ln p" data-a="prev" aria-label="Previous photo">‹</button>
+ <img id="lbimg" alt="">
+ <button class="ln n" data-a="next" aria-label="Next photo">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
